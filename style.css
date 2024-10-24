@@ -17,6 +17,7 @@ ul.nav{
     width: 40%;
     height: 100%;
     margin-left: 5%;
+    list-style: none;
 }
 
 a{

@@ -10,7 +10,6 @@ body{
     background-color: #00021b;
     margin: 0 auto;
     display: flex;
-    margin-bottom: 10px;
 }
 
 .navbar > ul{
@@ -46,6 +45,7 @@ a{
     overflow: hidden;
     display: grid;
     grid-template-rows: 1fr 4fr 1fr 1fr;
+    gap: 20px;
 }
 
 header{
@@ -68,14 +68,12 @@ header{
     font-size: 1.8rem;
     display: grid;
     place-content: end center;
-    margin-bottom: 20px;
 }
 
 .grid{
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    margin-top: 20px;
     width: 83%;
     grid-gap: 30px 72px;
 }
@@ -88,7 +86,6 @@ header{
 
 .boxes{
     margin: 0 auto;
-    margin-top: 20px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 20px 20px;
@@ -108,8 +105,6 @@ footer{
     width: 83%;
     margin: 0 auto;
     background-color: #c0c0c0;
-    margin-top: 10px;
-    margin-bottom: 10px;
     text-align: center;
     line-height: 60px;
     font-size: 1.8rem;
